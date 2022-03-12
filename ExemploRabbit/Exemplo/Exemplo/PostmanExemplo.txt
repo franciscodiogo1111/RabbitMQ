@@ -1,0 +1,10 @@
+curl --location --request POST 'http://localhost:22622/api/Messages' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "jhon doe",
+    "document": "19333108041", 
+    "selfie": "base 64 da selfie"
+}'
